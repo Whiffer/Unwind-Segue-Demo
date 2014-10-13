@@ -9,23 +9,14 @@
 /* Begin PBXBuildFile section */
 		138F1D4919EAF8B9001203C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D4819EAF8B9001203C0 /* main.m */; };
 		138F1D4C19EAF8B9001203C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D4B19EAF8B9001203C0 /* AppDelegate.m */; };
-		138F1D4F19EAF8B9001203C0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D4E19EAF8B9001203C0 /* FirstViewController.m */; };
-		138F1D5219EAF8B9001203C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D5119EAF8B9001203C0 /* SecondViewController.m */; };
+		138F1D4F19EAF8B9001203C0 /* MyModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D4E19EAF8B9001203C0 /* MyModalViewController.m */; };
+		138F1D5219EAF8B9001203C0 /* MyPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D5119EAF8B9001203C0 /* MyPushViewController.m */; };
 		138F1D5519EAF8B9001203C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138F1D5319EAF8B9001203C0 /* Main.storyboard */; };
 		138F1D5719EAF8B9001203C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138F1D5619EAF8B9001203C0 /* Images.xcassets */; };
 		138F1D5A19EAF8B9001203C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138F1D5819EAF8B9001203C0 /* LaunchScreen.xib */; };
-		138F1D6619EAF8B9001203C0 /* Unwind_Segue_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D6519EAF8B9001203C0 /* Unwind_Segue_DemoTests.m */; };
+		138F1D7319EAFB5B001203C0 /* MyImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D7019EAFB5B001203C0 /* MyImagePickerController.m */; };
+		138F1D7419EAFB5B001203C0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F1D7219EAFB5B001203C0 /* RootViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		138F1D6019EAF8B9001203C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 138F1D3B19EAF8B9001203C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 138F1D4219EAF8B9001203C0;
-			remoteInfo = "Unwind Segue Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		138F1D4319EAF8B9001203C0 /* Unwind Segue Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unwind Segue Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,27 +24,21 @@
 		138F1D4819EAF8B9001203C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		138F1D4A19EAF8B9001203C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		138F1D4B19EAF8B9001203C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		138F1D4D19EAF8B9001203C0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		138F1D4E19EAF8B9001203C0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		138F1D5019EAF8B9001203C0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		138F1D5119EAF8B9001203C0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		138F1D4D19EAF8B9001203C0 /* MyModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyModalViewController.h; sourceTree = "<group>"; };
+		138F1D4E19EAF8B9001203C0 /* MyModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyModalViewController.m; sourceTree = "<group>"; };
+		138F1D5019EAF8B9001203C0 /* MyPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPushViewController.h; sourceTree = "<group>"; };
+		138F1D5119EAF8B9001203C0 /* MyPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPushViewController.m; sourceTree = "<group>"; };
 		138F1D5419EAF8B9001203C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		138F1D5619EAF8B9001203C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		138F1D5919EAF8B9001203C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		138F1D5F19EAF8B9001203C0 /* Unwind Segue DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unwind Segue DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		138F1D6419EAF8B9001203C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138F1D6519EAF8B9001203C0 /* Unwind_Segue_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unwind_Segue_DemoTests.m; sourceTree = "<group>"; };
+		138F1D6F19EAFB5B001203C0 /* MyImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImagePickerController.h; sourceTree = "<group>"; };
+		138F1D7019EAFB5B001203C0 /* MyImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImagePickerController.m; sourceTree = "<group>"; };
+		138F1D7119EAFB5B001203C0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		138F1D7219EAFB5B001203C0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		138F1D4019EAF8B9001203C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		138F1D5C19EAF8B9001203C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				138F1D4519EAF8B9001203C0 /* Unwind Segue Demo */,
-				138F1D6219EAF8B9001203C0 /* Unwind Segue DemoTests */,
 				138F1D4419EAF8B9001203C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				138F1D4319EAF8B9001203C0 /* Unwind Segue Demo.app */,
-				138F1D5F19EAF8B9001203C0 /* Unwind Segue DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,10 +69,14 @@
 			children = (
 				138F1D4A19EAF8B9001203C0 /* AppDelegate.h */,
 				138F1D4B19EAF8B9001203C0 /* AppDelegate.m */,
-				138F1D4D19EAF8B9001203C0 /* FirstViewController.h */,
-				138F1D4E19EAF8B9001203C0 /* FirstViewController.m */,
-				138F1D5019EAF8B9001203C0 /* SecondViewController.h */,
-				138F1D5119EAF8B9001203C0 /* SecondViewController.m */,
+				138F1D7119EAFB5B001203C0 /* RootViewController.h */,
+				138F1D7219EAFB5B001203C0 /* RootViewController.m */,
+				138F1D6F19EAFB5B001203C0 /* MyImagePickerController.h */,
+				138F1D7019EAFB5B001203C0 /* MyImagePickerController.m */,
+				138F1D4D19EAF8B9001203C0 /* MyModalViewController.h */,
+				138F1D4E19EAF8B9001203C0 /* MyModalViewController.m */,
+				138F1D5019EAF8B9001203C0 /* MyPushViewController.h */,
+				138F1D5119EAF8B9001203C0 /* MyPushViewController.m */,
 				138F1D5319EAF8B9001203C0 /* Main.storyboard */,
 				138F1D5619EAF8B9001203C0 /* Images.xcassets */,
 				138F1D5819EAF8B9001203C0 /* LaunchScreen.xib */,
@@ -103,23 +90,6 @@
 			children = (
 				138F1D4719EAF8B9001203C0 /* Info.plist */,
 				138F1D4819EAF8B9001203C0 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		138F1D6219EAF8B9001203C0 /* Unwind Segue DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				138F1D6519EAF8B9001203C0 /* Unwind_Segue_DemoTests.m */,
-				138F1D6319EAF8B9001203C0 /* Supporting Files */,
-			);
-			path = "Unwind Segue DemoTests";
-			sourceTree = "<group>";
-		};
-		138F1D6319EAF8B9001203C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				138F1D6419EAF8B9001203C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,24 +114,6 @@
 			productReference = 138F1D4319EAF8B9001203C0 /* Unwind Segue Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		138F1D5E19EAF8B9001203C0 /* Unwind Segue DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 138F1D6C19EAF8B9001203C0 /* Build configuration list for PBXNativeTarget "Unwind Segue DemoTests" */;
-			buildPhases = (
-				138F1D5B19EAF8B9001203C0 /* Sources */,
-				138F1D5C19EAF8B9001203C0 /* Frameworks */,
-				138F1D5D19EAF8B9001203C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				138F1D6119EAF8B9001203C0 /* PBXTargetDependency */,
-			);
-			name = "Unwind Segue DemoTests";
-			productName = "Unwind Segue DemoTests";
-			productReference = 138F1D5F19EAF8B9001203C0 /* Unwind Segue DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +125,6 @@
 				TargetAttributes = {
 					138F1D4219EAF8B9001203C0 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					138F1D5E19EAF8B9001203C0 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 138F1D4219EAF8B9001203C0;
 					};
 				};
 			};
@@ -194,7 +142,6 @@
 			projectRoot = "";
 			targets = (
 				138F1D4219EAF8B9001203C0 /* Unwind Segue Demo */,
-				138F1D5E19EAF8B9001203C0 /* Unwind Segue DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		138F1D5D19EAF8B9001203C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -224,30 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138F1D5219EAF8B9001203C0 /* SecondViewController.m in Sources */,
+				138F1D5219EAF8B9001203C0 /* MyPushViewController.m in Sources */,
 				138F1D4C19EAF8B9001203C0 /* AppDelegate.m in Sources */,
-				138F1D4F19EAF8B9001203C0 /* FirstViewController.m in Sources */,
+				138F1D7419EAFB5B001203C0 /* RootViewController.m in Sources */,
+				138F1D7319EAFB5B001203C0 /* MyImagePickerController.m in Sources */,
+				138F1D4F19EAF8B9001203C0 /* MyModalViewController.m in Sources */,
 				138F1D4919EAF8B9001203C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		138F1D5B19EAF8B9001203C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				138F1D6619EAF8B9001203C0 /* Unwind_Segue_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		138F1D6119EAF8B9001203C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 138F1D4219EAF8B9001203C0 /* Unwind Segue Demo */;
-			targetProxy = 138F1D6019EAF8B9001203C0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		138F1D5319EAF8B9001203C0 /* Main.storyboard */ = {
@@ -367,40 +293,6 @@
 			};
 			name = Release;
 		};
-		138F1D6D19EAF8B9001203C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Unwind Segue DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unwind Segue Demo.app/Unwind Segue Demo";
-			};
-			name = Debug;
-		};
-		138F1D6E19EAF8B9001203C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Unwind Segue DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unwind Segue Demo.app/Unwind Segue Demo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,14 +312,7 @@
 				138F1D6B19EAF8B9001203C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		138F1D6C19EAF8B9001203C0 /* Build configuration list for PBXNativeTarget "Unwind Segue DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				138F1D6D19EAF8B9001203C0 /* Debug */,
-				138F1D6E19EAF8B9001203C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
